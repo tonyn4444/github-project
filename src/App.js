@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
+import Popular from './components/Popular';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        Hello World
+      <div className="container">
+        <Popular />
       </div>
     );
   }

@@ -1,1 +1,27 @@
+body {
+	font-family: Raleway;
+}
 
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+#languages {
+	display: flex;
+	justify-content: center;
+	border: 2px solid red;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+#languages li {
+	margin: 10px;
+	cursor: pointer;
+}
